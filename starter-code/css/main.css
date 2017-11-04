@@ -6,3 +6,34 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.header-container {
+    height: 80px;
+}
+
+.logo-container {
+    width: 25%;
+    padding: 10px;
+    height: 60px;
+    display: inline-block;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.navBar-container{
+    display: inline-block;
+    width: 73%;
+    text-align: right;
+    line-height: 80px;
+    vertical-align: top;
+}
+.navBar-container > span {
+    padding: 40px;
+    font-size: 20px;
+}
